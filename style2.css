@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    cursor: none;
+  }
+  
+@font-face {
+    font-family: Sugar Magic;
+    src: url(sugarmagicpersonaluseonly-jemyo.otf);
+}
+
+.info {
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4%;
+    padding: 10px;
+    text-align: justify;
+    text-justify: auto;
+}
+.p1,.p2,.p3,.p4{
+    padding-bottom:1%; 
+}
+.more {
+    margin-top: 4%;
+    margin-left: 40%;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: Sugar Magic;
+    text-shadow: #fff;
+    color: bisque;
+    width: 600px;
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999;
+    opacity: 60%;
+  }
+.navbar {
+    z-index: 1;
+    font-size: calc(20px + 18vh);
+    text-shadow: 0 0 5px #00fbff, 0 0 15px #00fbff, 0 0 20px #00fbff, 0 0 40px #00fbff, 0 0 60px #00aaff, 0 0 10px #00fbff, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    padding: 10px 30px;
+    text-align: center;
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+    background-color: #000000;
+    opacity: 100%;
+    border-radius:2px ;
+    height: 20px;
+    cursor: none;
+    z-index: 2;
+
+}
+.navbar a:hover{
+    font-size: 1.5rem;
+  }
+.logo {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: 1;
+}
+
+.navbar a {
+    z-index: 1;
+    font-size: calc(20px + 18vh);
+    text-shadow: 0 0 5px #00fbff, 0 0 15px #00fbff, 0 0 20px #00fbff, 0 0 40px #00fbff, 0 0 60px #00aaff, 0 0 10px #00fbff, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    padding: 10px 30px;
+    text-align: center;
+    color: azure;
+    text-decoration: none;
+    font-size: large;
+    z-index: 2;
+    cursor: none;
+}
+
+.options {
+    position: relative;
+    right: 0;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    width: 80%;
+}
+
+.ring {
+    z-index: -1;
+    clip-path: circle(50% at 50% 50%);
+    position: sticky;
+    top: 0;
+    width: 100px;
+    overflow: hidden;
+    right: 100px;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    padding-left:10px ;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  .icons {
+    display: flex;
+    margin-left: 2%;
+    flex-direction: row;
+    width: 9%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .i1,
+  .i2,
+  .i3 {
+    width: 30px;
+    margin: 10%;
+  }
+  
+  .i1 {
+    border-radius: 50%;
+  }
+  
+  .i3 {
+    width: 40px;
+  }
+  
+  .i1:hover,
+  .i2:hover,
+  .i3:hover {
+    cursor: none;
+    background-color: rgb(2, 145, 145);
+    box-shadow: 0 0 10px 2px rgb(2, 145, 145);
+  }
