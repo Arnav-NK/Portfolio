@@ -3,7 +3,7 @@ import '../App.css';
 const More = () => {
     return (
         <>
-            <div className="more" id='section4'>
+            <div className="more" id="section4">
                 About me
             </div>
             <section className="about-section">
@@ -87,4 +87,5 @@ const More = () => {
         </>
     );
 }
+
 export default More;
