@@ -11,9 +11,10 @@ const Home = () => {
           </div>
         </div >
         <a href="https://www.linkedin.com/in/arnav-khond/" target='_blank'>
-          <img src="./public/assets/profpic.jpg" className="portrait" alt="Picture" /></a>
+          <img src="/assets/profpic.jpg" className="portrait" alt="Picture" /></a>
       </div>
         </>
     );
 }
+
 export default Home;
