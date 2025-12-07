@@ -11,16 +11,18 @@ const Card = ({ title, content, type }) => {
         case 'tech':
             frontClass = 'front_dev';
             const firstRowImages = [
-                './public/assets/mongo.png',
-                './public/assets/Express.png',
-                './public/assets/React.png',
-                './public/assets/Node.js.png',
-            ];
-            const secondRowImages = [
-                './public/assets/kubernetes.png',
-                './public/assets/Docker.png',
-                './public/assets/Jenkins.png',
-            ];
+  '/assets/mongo.png',
+  '/assets/Express.png',
+  '/assets/React.png',
+  '/assets/Node.js.png',
+];
+
+const secondRowImages = [
+  '/assets/kubernetes.png',
+  '/assets/Docker.png',
+  '/assets/Jenkins.png',
+];
+
             written = [
                 '• DSA',
                 '• Computer Networks',
@@ -71,11 +73,12 @@ const Card = ({ title, content, type }) => {
         case 'langs':
             frontClass = 'languages_front';
             images = [
-                './public/assets/java.png',
-                './public/assets/C++.png',
-                './public/assets/C.png',
-                './public/assets/YAML.png',
-            ];
+  '/assets/java.png',
+  '/assets/C++.png',
+  '/assets/C.png',
+  '/assets/YAML.png',
+];
+
             backContent = (
                 <div className="languages_back">
                     <div className="images">
@@ -98,5 +101,6 @@ const Card = ({ title, content, type }) => {
         </div>
     );
 };
+
 
 export default Card;
