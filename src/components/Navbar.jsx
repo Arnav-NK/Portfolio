@@ -15,7 +15,7 @@ const Navbar=()=>{
           <a href="#section0">Home</a>
           <a href="#section1">Skills</a>
           <a href="#section3">Projects</a>
-          <a href="section4">More</a>
+          <a href="#section4">More</a>
         </div>
       </nav></>
         
@@ -23,3 +23,4 @@ const Navbar=()=>{
 }
 
 export default Navbar;
+
