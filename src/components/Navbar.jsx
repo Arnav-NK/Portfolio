@@ -14,6 +14,7 @@ const Navbar=()=>{
         <div className="options">
           <a href="#section0">Home</a>
           <a href="#section1">Skills</a>
+          <a href="#section2">Experience</a>
           <a href="#section3">Projects</a>
           <a href="#section4">More</a>
         </div>
