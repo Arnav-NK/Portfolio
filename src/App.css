@@ -15,6 +15,7 @@ body {
   background-color: none;
   position: sticky;
   top: 20px;
+  z-index: 99999;
   justify-content: center;
 }
 
@@ -33,7 +34,7 @@ body {
 }
 
 .navbar a {
-  z-index: 100;
+   z-index: 99999;
   font-size: large;
   color: azure;
   text-decoration: none;
@@ -45,12 +46,13 @@ body {
 }
 
 .navbar a:hover {
-  z-index: 100;
+   z-index: 99999;
   text-shadow: 0 0 5px #00fbff, 0 0 15px #00fbff, 0 0 20px #00fbff, 0 0 40px #00fbff, 0 0 60px #00aaff, 0 0 10px #00fbff, 0 0 98px #ff0000;
 }
 
 
 .container {
+  
   display: flex;
   margin-top: 7%;
   justify-content: space-between;

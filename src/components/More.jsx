@@ -52,7 +52,7 @@ const More = () => {
                         <h2>Achievements & Leadership</h2>
 
                         <ul>
-                            <li> 450+ LeetCode Problems Solved (Rating: 1712)</li>
+                            <li> 550+ LeetCode Problems Solved (Rating: 1712)</li>
                             <li> 4 ⭐ CodeChef Coder</li>
                             <li> 🏆 Event Organizer – TWARAN Inter-IIIT 2025 (2000+ Participants)</li>
                             <li> 🧑‍💼 Executive Member – Student Activity Council, IIIT Gwalior</li>
