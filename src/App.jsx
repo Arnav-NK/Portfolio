@@ -6,12 +6,14 @@ import Skills from './components/Skills.jsx';
 import Projects from './components/Projects.jsx';
 import Footer from './components/Footer.jsx';
 import More from './components/More.jsx';
+import Experience from './components/Experience.jsx';
 const App = () => {
   return (
     <div className="portfolio-app">
       <Navbar/>
       <Home/> 
       <Skills/>
+      <Experience/>
       <Projects/>  
       <More/>
       <Footer/>
