@@ -92,11 +92,10 @@ const Experience = () => {
         @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
         
-        #section2 {
+        .experience{
           z-index: 0;
           background: #000000;
           min-height: 100vh;
-          top: 10%;
           padding: 90px 24px 120px;
           margin-bottom: 80px;
            font-family: 'Arial', sans-serif;
@@ -351,7 +350,7 @@ const Experience = () => {
         }
       `}</style>
 
-      <section className="exp-section" id="section2">
+      <section className="experience" id="section2">
         <div className="exp-inner">
           <h2 className="exp-heading">
             My <span>Experience</span>
