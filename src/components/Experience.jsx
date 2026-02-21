@@ -349,7 +349,7 @@ const Experience = () => {
         }
       `}</style>
 
-      <section className="exp-section" id="section3">
+      <section className="exp-section" id="section2">
         <div className="exp-inner">
           <h2 className="exp-heading">
             My <span>Experience</span>
