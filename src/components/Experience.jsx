@@ -92,8 +92,9 @@ const Experience = () => {
         @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
         
-        .experience{
+        #section2{
           z-index: 0;
+          margin-top: 100px;
           background: #000000;
           min-height: 100vh;
           padding: 90px 24px 120px;
