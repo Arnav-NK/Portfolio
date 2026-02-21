@@ -91,10 +91,12 @@ const Experience = () => {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
+        
         #section2 {
           z-index: 0;
           background: #000000;
           min-height: 100vh;
+          top: 10%;
           padding: 90px 24px 120px;
           margin-bottom: 80px;
            font-family: 'Arial', sans-serif;
